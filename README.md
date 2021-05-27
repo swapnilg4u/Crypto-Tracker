@@ -85,11 +85,10 @@ GNU General Public License v3.0 &copy; [Swapnil Gupta](https://github.com/swapni
 
 ### Author
 
-|                                                                                         <a href="https://www.eatmy.news/2020/06/code-like-you-eat-i-mean-code-daily-as.html"><img src="https://raw.githubusercontent.com/swapnilg4u/swapnilg4u/main/assets/swapnil_dp.jpg" width="150px " height="150px" /></a>                                                                                         |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        **[Swapnil Gupta](https://github.com/swapnilg4u)**                                                                                                                                        |
-| <a href="https://telegram.me/BenTennyson_xDBot"><img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/telegram.gif" width="32px" height="32px"></a>
-<a href="https://www.linkedin.com/in/swapnilg4u/"><img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/linkedin.gif" width="32px" height="32px"></a> |
+| <img src="https://raw.githubusercontent.com/swapnilg4u/swapnilg4u/main/assets/swapnil_dp.jpg" width="150px " height="150px" />|
+| :---------------------------------------------------------------------------------------------------------------------------: |
+| **[Swapnil Gupta](https://github.com/swapnilg4u)**                                                                            |
+|<a href="https://telegram.me/BenTennyson_xDBot"><img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/telegram.gif" width="32px" height="32px"></a><a href="https://www.linkedin.com/in/swapnilg4u/"><img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/linkedin.gif" width="32px" height="32px"></a> |
 
 
 [![GitHub license](https://img.shields.io/github/license/swapnilg4u/Crypto-Tracker.svg?style=social&logo=github)](https://github.com/swapnilg4u/Crypto-Tracker/blob/main/LICENSE)
