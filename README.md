@@ -44,7 +44,7 @@ Crypto currencies are said to be here to stay. They aren't going anywhere in abo
 
 ### How to run?
 
-[![python](https://img.shields.io/badge/python-Crypto-Tracker.py-lightgrey.svg?logo=python&style=social)](https://github.com/swapnilg4u/Crypto-Tracker)
+[![python](https://img.shields.io/badge/python-CryptoTracker.py-lightgrey.svg?logo=python&style=social)](https://github.com/swapnilg4u/Crypto-Tracker)
 
 - You can upload the code on any hosting service of your choice. Just follow their documentation for the steps.
 - Run `python main.py`
