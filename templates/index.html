@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Real Time {{crypto.upper()}} Tracker</title>
+    <link rel="shortcut icon" href="{{url_for('static',filename='favicon.png')}}" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='darkmode.css')}}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet">
+    <style>
+        @import url(https://weloveiconfonts.com/api/?family=entypo);
+
+        /* entypo */
+        [class*="entypo-"]:before {
+            font-family: 'entypo', sans-serif;
+            color: rgb(255, 50, 50);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <br> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% include 'footer.html' %}
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script>
+    $(document).ready(function () {
+        const config = {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: "Price in INR",
+                    backgroundColor: 'slateblue',
+                    borderColor: 'slateblue',
+                    data: [],
+                    fill: false,
+                }],
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: 'Real Time {{crypto.upper()}} Tracker'
+                },
+                tooltips: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                hover: {
+                    mode: 'nearest',
+                    intersect: true
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Time (IST)'
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value (INR)'
+                        }
+                    }]
+                }
+            }
+        };
+
+        const context = document.getElementById('canvas').getContext('2d');
+
+        const lineChart = new Chart(context, config);
+
+        const source = new EventSource("/chart-data/{{crypto}}");
+
+        source.onmessage = function (event) {
+            const data = JSON.parse(event.data);
+            if (config.data.labels.length === 20) {
+                config.data.labels.shift();
+                config.data.datasets[0].data.shift();
+            }
+            config.data.labels.push(data.time);
+            config.data.datasets[0].data.push(data.value);
+            lineChart.update();
+        }
+    });
+
+    const btn = document.querySelector(".btn-toggle");
+
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme == "dark") {
+        document.body.classList.add("dark-theme");
+    }
+
+    btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark-theme");
+
+        let theme = "light";
+        if (document.body.classList.contains("dark-theme")) {
+            theme = "dark";
+        }
+        localStorage.setItem("theme", theme);
+    });
+
+</script>
+</body>
+
+</html>
