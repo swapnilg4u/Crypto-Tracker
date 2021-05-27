@@ -98,7 +98,7 @@ GNU General Public License v3.0 &copy; [Swapnil Gupta](https://github.com/swapni
 
 ------
 
-Give a ⭐ if you like the hardwork. it's Free 🥰
+<p align="center">Give a ⭐ if you like the hardwork. it's Free 🥰</p>
 
 ------
 
