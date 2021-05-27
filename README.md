@@ -92,7 +92,7 @@ GNU General Public License v3.0 &copy; [Swapnil Gupta](https://github.com/swapni
 <a href="https://www.linkedin.com/in/swapnilg4u/"><img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/linkedin.gif" width="32px" height="32px"></a> |
 
 
-[![GitHub license](https://img.shields.io/github/license/swapnilg4u.Crypto-Tracker.svg?style=social&logo=github)](https://github.com/swapnilg4u/Crypto-Tracker/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/swapnilg4u/Crypto-Tracker.svg?style=social&logo=github)](https://github.com/swapnilg4u/Crypto-Tracker/blob/main/LICENSE)
 [![GitHub forks](https://img.shields.io/github/forks/swapnilg4u/Crypto-Tracker.svg?style=social)](https://github.com/swapnilg4u/Crypto-Tracker/network)
 [![GitHub stars](https://img.shields.io/github/stars/swapnilg4u/Crypto-Tracker.svg?style=social)](https://github.com/swapnilg4u/Crypto-Tracker/stargazers)
 [![GitHub followers](https://img.shields.io/github/followers/swapnilg4u.svg?label=Follow&style=social)](https://github.com/swapnilg4u/)
