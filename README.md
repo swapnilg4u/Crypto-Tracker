@@ -73,6 +73,7 @@ git clone https://github.com/swapnilg4u/Crypto-Tracker.git
 ### Need help?
 
 [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@swapnilg4u&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/swapnilg4u/)
+[![Telegram](https://img.shields.io/static/v1.svg?label=connect&message=@swapnilg4u&color=success&logo=telegram&style=flat&logoColor=white&colorA=blue)](https://www.telegram.me/swapnilg4u)
 
 :email: Feel free to contact me @ [swapnilg4u@gmail.com](https://mail.google.com/mail/)
 
