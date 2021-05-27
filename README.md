@@ -2,7 +2,7 @@
 ## Tracks all major cryptocurrencies in real time.
 
 [![Generic badge](https://img.shields.io/badge/Crypto-Currency-teal.svg?style=for-the-badge)](https://github.com/swapnilg4u/Crypto-Tracker) 
-[![Generic badge](https://img.shields.io/badge/WazirX-API-orange.svg?style=for-the-badge&logo=Bitcoin&logoColor=white)](https://github.com/swapnilg4u/Crypto-Tracker) [![Generic badge](https://img.shields.io/badge/Python-Flask-blue.svg?style=for-the-badge)](https://github.com/swapnilg4u/Crypto-Tracker) 
+[![Generic badge](https://img.shields.io/badge/WazirX-API-orange.svg?style=for-the-badge&logo=Bitcoin&logoColor=white)](https://github.com/swapnilg4u/Crypto-Tracker) [![Generic badge](https://img.shields.io/badge/Python-Flask-blue.svg?style=for-the-badge&logo=Python)](https://github.com/swapnilg4u/Crypto-Tracker) 
 
 #### The project is about tracking the price of all major crypto currencies in real time and displaying on a price-time chart.
 
