@@ -30,7 +30,7 @@ Crypto currencies are said to be here to stay. They aren't going anywhere in abo
 3. Parse the json response to obtain the crypto along with it's price.
 4. Plot the Time vs Price chart.
 
-[![Made with Python](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/swapnilg4u/Crypto-Tracker) [![Made with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/swapnilg4u)
+[![Made with Love](https://forthebadge.com/images/badges/made-with-love.svg)](https://github.com/swapnilg4u/Crypto-Tracker) [![Built with Python](https://forthebadge.com/images/badges/built-with-python.svg)](https://github.com/swapnilg4u)
 
 ### Libraries Used
 
