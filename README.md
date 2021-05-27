@@ -98,6 +98,10 @@ GNU General Public License v3.0 &copy; [Swapnil Gupta](https://github.com/swapni
 
 ------
 
+Give a ⭐ if you like the hardwork. it's Free 🥰
+
+------
+
 <p align="center"><strong><sup>:hugs: <br>Check out my other projects <a href="https://github.com/swapnilg4u/swapnilg4u/blob/main/PROJECTS.md">here</a>!</sup></strong></p>
 
 ------
