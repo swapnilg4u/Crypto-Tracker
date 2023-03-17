@@ -77,7 +77,7 @@ git clone https://github.com/swapnilg4u/Crypto-Tracker.git
 
 :email: Feel free to contact me @ [swapnilg4u@gmail.com](https://mail.google.com/mail/)
 
-[![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=swapnilg4u@gmail.com&color=red&logo=gmail&style=social)](https://github.com/swapnilg4u) [![Twitter Follow](https://img.shields.io/twitter/follow/swapnilg4u?style=social)](https://twitter.com/swapnilg4u)
+[![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=swapnilg4u@gmail.com&color=red&logo=gmail&style=social)](https://github.com/swapnilg4u) 
 
 
 ### License
